@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'yandex_map_plugin'
+  s.name             = 'yandex_mapkit_lite_initializer'
   s.version          = '0.0.1'
   s.summary          = 'Initializes Yandex MapKit Lite for FlutterFlow on iOS'
   s.description      = <<-DESC
