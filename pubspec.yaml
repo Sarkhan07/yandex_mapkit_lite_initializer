@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   # сам MapKit Lite подтягивается из твоего основного проекта, но можно продублировать:
-  # yandex_mapkit_lite: ^2.0.2
+  # yandex_maps_mapkit_lite: ^4.30.0-beta
 
 flutter:
   plugin:

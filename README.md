@@ -4,7 +4,7 @@
    Project Settings → Project Dependencies → Custom Pub Dependencies:
 
    ```yaml
-   yandex_mapkit_lite: ^2.0.2
+   yandex_maps_mapkit_lite: ^4.30.0-beta
 
    yandex_mapkit_lite_initializer:
      git:

@@ -11,7 +11,7 @@ A Flutter plugin that helps initialize Yandex MapKit Lite on iOS for FlutterFlow
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'YandexMapsMobile', '4.4.0-lite'
+  s.dependency 'YandexMapsMobile', '4.30.0-lite'
   s.platform = :ios, '13.0'
 
   # Flutter.framework does not contain a i386 slice.
