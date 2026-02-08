@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.mycompany.yandex_mapkit_lite_initializer">
+
+  <application>
+    <!-- Провайдер стартует раньше Application.onCreate() и устанавливает ключ MapKit -->
+    <provider
+      android:name="com.mycompany.yandex_mapkit_lite_initializer.YandexMapKitLiteInitProvider"
+      android:authorities="${applicationId}.ymkliteinit"
+      android:exported="false"
+      android:initOrder="100" />
+  </application>
+</manifest>
