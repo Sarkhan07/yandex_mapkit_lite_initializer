@@ -1,5 +1,5 @@
 name: yandex_mapkit_lite_initializer
-description: Initializes Yandex MapKit Lite on Android and iOS (works with FlutterFlow)
+description: Initializes Yandex MapKit Lite on Android via ContentProvider (works with FlutterFlow)
 version: 0.0.1
 publish_to: "none"
 
@@ -10,13 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
   # сам MapKit Lite подтягивается из твоего основного проекта, но можно продублировать:
-  # yandex_maps_mapkit_lite: ^4.30.0-beta
+  # yandex_mapkit_lite: ^2.0.2
 
 flutter:
   plugin:
     platforms:
       android:
         package: com.mycompany.yandex_mapkit_lite_initializer
-        pluginClass: YandexMapKitLiteInitializerPlugin
-      ios:
         pluginClass: YandexMapKitLiteInitializerPlugin
