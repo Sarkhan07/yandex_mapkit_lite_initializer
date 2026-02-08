@@ -8,7 +8,7 @@
 
    yandex_mapkit_lite_initializer:
      git:
-       url: https://github.com/JKgeneral1/yandex_mapkit_lite_initializer.git
+       url: https://github.com/sarkhan07/yandex_mapkit_lite_initializer.git
        ref: main
    ```
 
@@ -43,6 +43,8 @@
    ```
 
 3. **Настроить iOS**  
+   **Важно:** Плагин `yandex_mapkit_lite_initializer` упрощает инициализацию, но для iOS вам всё равно нужно указать API-ключ в `AppDelegate.swift`.
+
    В `AppDelegate.swift` укажите ключ (внутри `application(_:didFinishLaunchingWithOptions:)`):
 
    ```swift
@@ -54,6 +56,7 @@
        _ application: UIApplication,
        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
      ) -> Bool {
+       // Инициализация Yandex MapKit с API-ключом
        YMKMapKit.setApiKey("{API-ключ YandexMap SDK}")
        GeneratedPluginRegistrant.register(with: self)
        return super.application(application, didFinishLaunchingWithOptions: launchOptions)
