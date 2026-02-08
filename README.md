@@ -7,9 +7,10 @@
    yandex_mapkit_lite: ^2.0.2
 
    yandex_mapkit_lite_initializer:
-  git:
-    url: https://github.com/Sarkhan07/yandex_mapkit_lite_initializer.git
-    ref: main
+     git:
+       url: https://github.com/JKgeneral1/yandex_mapkit_lite_initializer.git
+       ref: main
+   ```
 
 2. **Настроить Android**  
    В `AndroidManifest.xml` добавьте разрешения и meta-data с ключом:

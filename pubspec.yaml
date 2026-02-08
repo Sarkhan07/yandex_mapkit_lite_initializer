@@ -18,5 +18,3 @@ flutter:
       android:
         package: com.mycompany.yandex_mapkit_lite_initializer
         pluginClass: YandexMapKitLiteInitializerPlugin
-      ios:
-        pluginClass: YandexMapKitLiteInitializerPlugin
